@@ -1,7 +1,7 @@
-inputString = input() # get a line of input from stdin and save it to our variable
+mensaje_usuario = input('Favor digite un mensaje aqui: ') # get a line of input from stdin and save it to our variable
 
 # Your first line of output goes here
-print('Hello, World.')
+print('Lo que me de mi real gana')
 
 # Write the second line of output
-print(inputString)
+print(f'Este es el mensaje digitado por el usuario: {mensaje_usuario}')
